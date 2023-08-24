@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Rubik:wght@500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(245, 235, 198);
+}
+
+.sidebar {
+    background-color: rgb(53, 51, 51);
+    border-radius: 5px;
+}
+
+
+@media only screen and (min-width: 768px) {
+
+    .sidebar {
+        width: 350px;
+        height: 1280px;
+    }
+
+    #firstLink {
+        padding-top: 70px;
+    }
+
+    .sidebar a {
+        text-decoration: none;
+        color: white;
+        font-family: sans-serif;
+        margin-top: 50px;
+    }
+
+    .links {
+        padding-top: 10%;
+        margin-left: 130px;
+
+    }
+
+
+
+    .sidebar a:hover {
+        font-weight: bold;
+        color: rgb(241, 156, 0);
+    }
+
+
+    .logo {
+        margin-left: 85px;
+        margin-top: 50px;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 30px;
+        color: black;
+        font-weight: bold;
+        color: rgb(241, 156, 0);
+
+    }
+
+    .contanior {
+
+        width: 1150px;
+        padding-bottom: 10%;
+        margin-left: 23%;
+        margin-top: -85%;
+        border-radius: 5px;
+
+    }
+
+    .firstSection {
+        background-color: antiquewhite;
+    }
+
+    #personeImge {
+        padding-left: 45%;
+        padding-top: 30px;
+    }
+
+    #personeEmail {
+        padding-left: 43%;
+        padding-top: 10px;
+        color: rgb(79, 77, 77);
+    }
+
+    #headP {
+        padding-left: 48%;
+        padding-top: 15px;
+        font-family: sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .courses {
+        padding-bottom: 10%;
+    }
+
+    .cardC {
+        background-color: white;
+        border-radius: 3px 3px 50px 3px;
+        margin-top: 30px;
+        margin-left: 5%;
+        width: 300px;
+        height: 450px;
+        border-radius: 5px;
+        box-shadow: 7px 7px rgb(247, 240, 185);
+
+
+    }
+
+    #forthCourse {
+        margin-left: 65%;
+        margin-top: -39.2%;
+    }
+
+    #secCourse {
+        margin-left: 5%;
+        margin-top: 5%;
+
+    }
+
+    #thirdCourse {
+        margin-left: 35%;
+        margin-top: -39.3%;
+    }
+
+    .upcomening {
+        padding-left: 10%;
+        padding-top: 3%;
+    }
+
+    #upComP {
+        font-size: 20px;
+        font-family: 'Josefin Sans',
+            sans-serif;
+    }
+
+    .pho {
+        border-radius: 50px 0px 50px 0px;
+        width: 300px;
+        height: 250px;
+    }
+
+    .txt {
+        padding-top: 10px;
+        padding-left: 20px;
+        font-family: sans-serif;
+        font-weight: bold;
+    }
+
+    .fW {
+        color: rgb(182, 178, 178);
+        font-weight: 15px;
+        padding-top: 10px;
+        padding-left: 20px;
+        font-family: sans-serif;
+    }
+
+    .circls {
+        margin-left: 20px;
+    }
+
+    .cir1 {
+        margin-left: 20px;
+        margin-top: 15px;
+        background-color: rgb(124, 227, 90);
+        padding-top: 15px;
+        width: 50px;
+        padding-left: 10px;
+        font-weight: bold;
+        height: 30px;
+        border-radius: 15px;
+        color: white;
+    }
+
+    .cir2 {
+        margin-left: 35%;
+        margin-top: -16%;
+        background-color: rgb(231, 104, 146);
+        padding-top: 15px;
+        width: 40px;
+        padding-left: 20px;
+        font-weight: bolder;
+        height: 30px;
+        border-radius: 15px;
+        color: white;
+    }
+
+    .cir3 {
+        margin-left: 63%;
+        margin-top: -16%;
+        background-color: rgb(231, 216, 104);
+        padding-top: 15px;
+        width: 60px;
+        padding-left: 15px;
+        font-weight: bolder;
+        height: 30px;
+        border-radius: 15px;
+        color: white;
+    }
+
+    .achievments {
+        padding-left: 30%;
+        padding-top: 3%;
+    }
+
+    .box {
+        margin-top: 3%;
+        background-color: beige;
+        width: 450px;
+        box-shadow: 2px 2px rgb(241, 156, 0);
+
+    }
+
+    #Compeleted {
+        padding-top: 5%;
+        padding-left: 10%;
+        font-size: 13px;
+        font-weight: bold;
+        font-family: sans-serif;
+        padding-bottom: 50px;
+    }
+
+}
